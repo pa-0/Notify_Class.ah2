@@ -1,0 +1,26 @@
+this.mDefault := Map(), this.mDefault.CaseSense := 'off'
+this.mDefault['pos'] := 'br'           ; Position
+this.mDefault['dur'] := 8              ; Duration    
+this.mDefault['iw'] := 32              ; Image width
+this.mDefault['ih'] := 32              ; Image height
+this.mDefault['tf'] := 'Segoe UI bold' ; Title font
+this.mDefault['tfo'] := ''             ; Title font options.
+this.mDefault['ts'] := 15              ; Title size
+this.mDefault['tali'] := 'left'        ; Title alignment
+this.mDefault['tc'] := 'white'         ; Title color
+this.mDefault['mf'] := 'Segoe UI'      ; Message font
+this.mDefault['mfo'] := ''             ; Message font options.
+this.mDefault['ms'] := 12              ; Message size
+this.mDefault['mc'] := 'white'         ; Message color
+this.mDefault['mali'] := 'left'        ; Message alignment
+this.mDefault['prog'] := ''            ; Progress bar
+this.mDefault['bc'] := '1F1F1F'        ; Background color
+this.mDefault['style'] := 'round'      ; Style
+this.mDefault['tag'] := ''             ; GUI window title identifying marker.
+this.mDefault['dg'] := 0               ; Destroy GUIs.
+this.mDefault['dgc'] := 1              ; Destroy GUI click.
+this.mDefault['bdr'] := 1              ; Border   
+this.mDefault['wstc'] := ''            ; WinSetTransColor 
+this.mDefault['wstp'] := ''            ; WinSetTransparent    
+this.mDefault['mon'] := MonitorGetPrimary() ; Monitor number to display the GUI.
+this.mDefault['opt'] := '+Owner -Caption +AlwaysOnTop' ; GUI options
