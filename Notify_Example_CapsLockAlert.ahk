@@ -1,6 +1,6 @@
 #Requires AutoHotkey v2.0
 #SingleInstance
-#include <v2\Notify\Notify>
+#include Notify.ahk
 
 if (!A_IsCompiled && !InStr(A_AhkPath, "_UIA")) {
     Run("*uiAccess " A_ScriptFullPath)

@@ -1,8 +1,8 @@
 #Requires Autohotkey v2.1-alpha.14
 #SingleInstance Force
-#include <TapHoldManager>
-#include <TooltipEx>
-#include <Notify>
+#include TapHoldManager.ahk
+#include TooltipEx.ahk
+#include Notify.ahk
 
 THM := TapHoldManager()
 THM.Add("F11", Layer1)
